@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 14px;
+    font-weight: 100;
+    background-color: rgb(0, 0, 0);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Header=========================*/
+.head{
+    height: 100vh;
+        background: url(img/1.jpg) center no-repeat;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-attachment: fixed;
+
+}
+.name{
+    position: relative;
+    top: 35%;
+    display: inline;
+    width: auto;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    left: 3%;
+
+}
+/*fff===============================*/
+
+.fff{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+.fff_text{
+    color: white;
+    font-size: 40px;
+    padding-top: 250px;
+    width: 50%;
+    padding-left: 20px;
+}
+.fff_ph{
+    background: url(img/111.jpg) center center no-repeat;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    width: 50%;
+}
+/*about =============================*/
+.about{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+}
+.img_abo{
+    background: url(img/3.jpg) center center no-repeat;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    width: 52%;
+}
+.about_name{
+    text-align: center;
+}
+.zanryy{
+    margin-bottom: 10px;
+}
+.text{
+    padding-top: 150px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    
+
+}
+/*coooook====================*/
+.cook{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+.cook_text{
+    color: white;
+    font-size: 40px;
+    padding: 0 20px;
+    padding-top: 250px;
+    width: 50%;
+}
+
+.cook_ph{
+    background: url(img/333.jpg) center center no-repeat;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    width: 50%;
+}
+/*koala===============*/
+.koala{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+.koala_ph{
+    background: url(img/55.jpg) center center no-repeat;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    width: 50%;
+}
+.k_t{
+    width: 50%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-top: 230px;
+    padding-left: 30px;
+
+}
+/*insta===========*/
+.style{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+.style_text{
+    color: white;
+    font-size: 40px;
+    padding: 0 20px;
+    padding-top: 220px;
+    width: 50%;
+}
+
+.style_ph{
+    background: url(img/66.jpg) center center no-repeat;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    width: 50%;
+}
+/*insta====================*/
+.insta{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+.insta_ph{
+    background: url(img/4.jpg) center center no-repeat;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    width: 50%;
+}
+.insta_text{
+    width: 50%;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding-top: 230px;
+    padding-left: 30px;
+
+}
+.aa{
+    text-decoration: none;
+    color: red;
+}
+/*works===========================*/
+
+.abouut{
+    margin: 150px auto;
+    text-align: center;
+}
+
+.about_text {
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+
+}
+.works {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works__item {
+    width: 25%;
+    height: 350px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.works__item:hover .works__content {
+    opacity: 1;
+}
+
+.works__photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.works__content {
+    position:absolute;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height:100%;
+
+    z-index: 50;
+}
+.works__content:hover{
+    background: rgba(0, 0, 0, 0);
+    transition: .3s;
+}
+/*choice========================*/
+.choice{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.lee{
+    width: 33%;
+}
+.aaa{
+    height: 700px; 
+    opacity: 0.1;
+    transition: 1s;
+}
+.aaa:hover{
+    opacity: 1;
+}
+.que{
+    width: 33%;
+}
+.tae{
+    width: 33%;
+}
